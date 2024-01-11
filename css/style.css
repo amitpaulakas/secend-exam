@@ -139,6 +139,9 @@ line-height: 37.6px;
    text-align: center;
     padding: 10px;
 }
+.Bolg_part_img{
+    
+}
 /* ********************************
             Blog card  css end 
 ************************************************** */
@@ -148,12 +151,113 @@ line-height: 37.6px;
 ************************************************** */
 #stategi_Part{
     background:url(../images/blog.png);
-    padding:25px 0 350px ;
+    padding:25px 0 3px ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.stategi_wraper{
+    column-gap:px;
+}
+.stategi_Part_text{
+    margin-top: 500px;
+    width: 694px;
+    text-align: center;
+    
+}
+.sta_h4{
+    margin-top: 300px;
+    color: #000;
+    text-align: center;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 137.2%;
+    margin-bottom: 18px;
+ 
+}
+
+.sta_h6{
+    color: #32046B;
+text-align: center;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 42.5px;
+    margin-bottom: 80px;
+ 
+}
+.sta_button{
+    text-align: center;
+    width: 317px;
+height: 93px;
+flex-shrink: 0;
+color: var(--secendary_bckground_color);
+border: 1px solid var(--secendary_bckground_color);
+font-weight: 600;
+font-size: 22px;
+border-radius: 20px;
+margin: auto;
+   text-align: center;
+}
+.sta_button:hover{
+    background-color: var(--secendary_bckground_color);
+    color: #fff;
+}
+
+.stategi_Part_text img{
+  
+}
+.stategi_Part_img picture img{
+    margin-left: 113px;
+    margin-top: 350px;
+    width: 564px;
+    height: 481px;
+}
+/* ********************************
+            statagi card  css end 
+************************************************** */
+#footer_part{
+    background: url(../images/Vector\ \(1\).png);
+    padding:20px 0 30px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-/* ********************************
-            statagi card  css end 
-************************************************** */
+.Footer_all_wraper{
+    margin-top: 593px;
+}
+.fot_first_col{
+color: #FFF;
+font-size: 18px;
+font-weight: 400;
+
+}
+.footer_links h6{
+    color: #FFF;
+    font-size: 22px;
+    font-weight: 400;
+}
+.footer_links ul li a{
+    color: #FFF;
+font-size: 18px;
+
+font-weight: 500;
+}
+.footer_all_componant{
+    text-align: center;
+}
+.footer_link_recengle picture img{
+    width: 390px;
+    height: 224px;
+}
+.footer_link_recengle h6{
+    color: #FFF;
+font-size: 22px;
+font-weight: 700;
+margin-left: 77px;
+}
+.icon{
+    color: #FFF;
+}
